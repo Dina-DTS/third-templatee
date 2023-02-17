@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>The Third Project</title>
+</head>
+<body>
+  <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="nav-bar">
+        <div class="container-fluid headd">
+            <img src="images/png-clipart-hospital-logo-clinic-health-care-physician-business.png" alt="" height="60" width="60" style="margin-right: 20px;">
+          <a class=" nav-bor navbar-brand" href="#">HealthCare</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class=" hovv navbar-nav me-auto mb-2 mb-lg-0">
+              <li class=" nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class=" nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#services">Services</a></li>
+                  <li><a class="dropdown-item" href="#price">Prices</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#staff">Staff</a></li>
+                </ul>
+              </li>
+              <li class="nav-item item">
+                <a class="nav-link link" href="departments.html">Departments</a>
+              </li>
+              <li class="nav-item item">
+                <a class="nav-link link" href="#contact">Contact Us</a>
+              </li>
+            </ul>
+            
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 "  type="search" placeholder="Search" aria-label="Search"  >
+              <button class="btn btn-primary"  type="submit"  >Search</button>
+            </form>
+            <form class="d-flex" role="log">
+              <button class="btn btn-primary"  style="margin-left: 6px;" type="submit" >
+              <a href="login.html" style="color: white  !important; text-decoration: none; " >login</a></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  <!-- end nav -->
+   <!-- /navbar -->
+   <div class="container-fluid p-0" id="home">
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/11-university-hospital-thumb.jpg" class="d-block w-100" height="550px" alt="pic1">
+        </div>
+        <div class="carousel-item">
+          <img src="images/images.jpg" class="d-block w-100" height="550px" alt="pic2">
+        </div>
+        <div class="carousel-item">
+          <img src="images/department.jpg" class="d-block w-100" height="550px" alt="pic3">
+        </div>
+        <div class="carousel-item">
+          <img src="images/backctor-167607063.jpg" class="d-block w-100" height="550px" alt="pic4">
+
+        </div>
+      </div>
+      <div class="carousel-caption">
+        <h1>Health Care</h1>
+        <a href="" class="btn btn-primary" target="_blank">View Our Website</a>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+          <!-- /carousel -->
+    <!-- cards -->
+    <div class="page-section pb-0">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 py-3 wow fadeInUp">
+              <h1>Welcome to Your Health <br> Center</h1>
+              <p class="text-grey mb-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Accusantium aperiam earum ipsa eius, inventore nemo labore eaque porro consequatur ex aspernatur. Explicabo, excepturi accusantium! Placeat voluptates esse ut optio facilis!</p>
+              <a href="about.html" class="btn btn-primary">Learn More</a>
+            </div>
+            <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
+              <div class="img-place custom-img-1">
+                <img src="images/bg-doctor.png" alt="" style="width: 80% !important;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- .bg-light -->
+    </div> <!-- .bg-light -->
+    <!-- /cards -->
+    <hr>
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+      <div class="container">
+          <div class="row gx-5">
+              <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
+                  <div class="position-relative h-100">
+                      <img class="position-absolute w-100 h-100 rounded" src="images/about.jpg" style="object-fit: cover;">
+                  </div>
+              </div>
+              <div class="col-lg-7">
+                  <div class="mb-4">
+                      <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">About Us</h5>
+                      <h1 class="display-4">Best Medical Care For Yourself and Your Family</h1>
+                  </div>
+                  <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor consetetur takimata eirmod, dolores takimata consetetur invidunt magna dolores aliquyam dolores dolore. Amet erat amet et magna</p>
+                  <div class="row g-3 pt-3">
+                      <div class="col-sm-3 col-6">
+                          <div class="bg-light text-center rounded-circle py-4">
+                              <i class=" icon fa fa-3x fa-user-md  mb-3"></i>
+                              <h6 class="mb-0">Qualified<small class=" icon d-block ">Doctors</small></h6>
+                          </div>
+                      </div>
+                      <div class="col-sm-3 col-6">
+                          <div class="bg-light text-center rounded-circle py-4">
+                              <i class=" icon fa fa-3x fa-procedures  mb-3"></i>
+                              <h6 class="mb-0">Emergency<small class=" icon d-block ">Services</small></h6>
+                          </div>
+                      </div>
+                      <div class="col-sm-3 col-6">
+                          <div class="bg-light text-center rounded-circle py-4">
+                              <i class="icon fa fa-3x fa-microscope  mb-3"></i>
+                              <h6 class="mb-0">Accurate<small class="icon d-block ">Testing</small></h6>
+                          </div>
+                      </div>
+                      <div class="col-sm-3 col-6">
+                          <div class="bg-light text-center rounded-circle py-4">
+                              <i class=" icon fa fa-3x fa-ambulance mb-3"></i>
+                              <h6 class="mb-0">Free<small class=" icon d-block">Ambulance</small></h6>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- About End -->
+    <!-- Services Start -->
+    <div class="container-fluid py-5" id="services" style="margin-bottom: 70px;">
+        <div class="container">
+            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
+                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Services</h5>
+                <h1 class="display-4">Excellent Medical Services</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-2x fa-user-md text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Emergency Care</h4>
+                        <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                          <i class="fa-solid fa-arrow-right"></i>                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-2x fa-procedures text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Operation & Surgery</h4>
+                        <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                          <i class="fa-solid fa-arrow-right"></i>                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-2x fa-stethoscope text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Outdoor Checkup</h4>
+                        <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                          <i class="fa-solid fa-arrow-right"></i>                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-2x fa-ambulance text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Ambulance Service</h4>
+                        <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                          <i class="fa-solid fa-arrow-right"></i>                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-2x fa-pills text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Medicine & Pharmacy</h4>
+                        <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                          <i class="fa-solid fa-arrow-right"></i>                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="service-icon mb-4">
+                            <i class="fa fa-2x fa-microscope text-white"></i>
+                        </div>
+                        <h4 class="mb-3">Blood Testing</h4>
+                        <p class="m-0">Kasd dolor no lorem nonumy sit labore tempor at justo rebum rebum stet, justo elitr dolor amet sit</p>
+                        <a class="btn btn-lg btn-primary rounded-pill" href="">
+                          <i class="fa-solid fa-arrow-right"></i>                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+    <!-- start pricing -->
+    <div class="text-center mx-auto mb-5" style="max-width: 500px;" id="price">
+      <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5 ">Price</h5>
+      <h1 class="display-4">Pricing Medical Services</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class=" col-lg-3 col-md-6 mb-4">
+        <div class=" price pricing_card">
+          <div class="pricing_header text-center">
+            <h3>For specific issues</h3>
+            <img src="images/d00e98d12e92b8119c2756f67d3e4133.jpg" alt="" class="imm">
+          </div>
+          <div class="pricing_body text-center">
+            <div class="pri text-center"><h2>150$</h2></div>
+            <div class="benefits " >
+              <ul>
+                <li>Free with Dental Insurance</li>
+                <li>Best for a specific problem</li>
+                <li>Quick & simple dental assessment</li>
+                <li>Summary report within 6 hours</li>
+                <li>Care advice & options</li>
+              </ul>
+            </div>
+            <a href="#" class=" res btn btn-primary">Enquiry</a>
+          </div>
+        </div>
+      </div>
+      <div class="  col-lg-3 col-md-6 mb-4">
+        <div class=" price pricing_card">
+          <div class="pricing_header text-center">
+            <h3>Nerve detection</h3>
+            <img src="images/brain-muscular-cartoon-mascot-vector-260nw-1861682452.webp" alt="" class="brain">
+          </div>
+          <div class="pricing_body text-center">
+          <div class="pri text-center"><h2>180$</h2></div>
+            <div class="benefits">
+              <ul>
+                <li>Free with Dental Insurance</li>
+                <li>Best for a specific problem</li>
+                <li>Quick & simple dental assessment</li>
+                <li>Summary report within 6 hours</li>
+                <li>Care advice & options</li>
+              </ul>
+              </div>
+              <a href="#" class=" res btn btn-primary">Enquiry</a>
+            </div>
+        </div>
+      </div>
+      <div class=" col-lg-3 col-md-6 mb-4">
+      <div class=" price pricing_card">
+          <div class="pricing_header text-center">
+            <h3>Abdomen Detecation</h3>
+            <img src="images/sad-suffering-sick-cute-human-260nw-1424728901.webp" alt="" class="adb">
+          </div>
+          <div class="pricing_body text-center">
+          <div class="pri text-center"><h2>200$</h2></div>
+            <div class="benefits">
+              <ul>
+                <li>Free with Dental Insurance</li>
+                <li>Best for a specific problem</li>
+                <li>Quick & simple dental assessment</li>
+                <li>Summary report within 6 hours</li>
+                <li>Care advice & options</li>
+              </ul>
+              </div>
+              <a href="#" class=" res btn btn-primary">Enquiry</a>
+            </div>
+        </div>
+      </div>
+      <div class=" col-lg-3 col-md-6 mb-4">
+      <div class=" price pricing_card">
+          <div class="pricing_header text-center">
+            <h3>Surgical Detecation</h3>
+            <img src="images/surgeons-team-surrounding-patient-operation-table-flat-vector-illustration-cartoon-medical-workers-preparing-surgery-medicine-technology-concept_74855-8596.avif" alt="" class="sur">
+          </div>
+          <div class="pricing_body text-center ">
+          <div class="pri text-center"><h2>200$</h2></div>
+            <div class="benefits">
+              <ul>
+                <li>Free with Dental Insurance</li>
+                <li>Best for a specific problem</li>
+                <li>Quick & simple dental assessment</li>
+                <li>Summary report within 6 hours</li>
+                <li>Care advice & options</li>
+              </ul>
+              </div>
+              <a href="#" class=" res btn btn-primary">Enquiry</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+    <!-- ---------------- pricing section ends--------------------->
+    <!-- Start our team -->
+    <div class="text-center mx-auto mb-5 " style="max-width: 500px; margin-top: 100px;" id="staff">
+      <h2 class="d-inline-block text-primary text-uppercase border-bottom border-5 ">Our Qualified Doctors</h2>
+      <h5 class="d-inline-block">Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country</h5>
+  </div>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col col-lg-3 col-md-6">
+        <div class="card pos">
+          <img src="images/Docter1.jpg" class="card-img-top" alt="...">
+          <div class="product-overlay">
+            <ul class="list-unstyled">
+              <li><a href="#"><i class="fab fa-facebook" style="color: white !important;"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter" style="color: white !important;"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin" style="color: white !important;"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram" style="color: white !important;"></i></a></li>
+            </ul>
+          </div> <!-- product-overlay -->
+          <div class="card-body">
+            <h3 class="card-title text-center">Dr. Lloyd Wilson</h3>
+            <h5 class="text-center"> Neurologist</h5>
+            <p class="m text-center">Wednesday - Thursday</p>
+            <p class="n text-center">1 pm - 5:30 pm</p>
+            <a href="reserve.html" class=" doc btn btn-primary">Reserve</a>
+          </div>
+                </div>
+      </div>
+      <div class="col col-lg-3 col-md-6">
+        <div class="card pos">
+          <img src="images/docter2.jpg" class="card-img-top" alt="...">
+          <div class="product-overlay">
+            <ul class="list-unstyled">
+              <li><a href="#"><i class="fab fa-facebook" style="color: white !important;"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter" style="color: white !important;"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin" style="color: white !important;"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram" style="color: white !important;"></i></a></li>
+            </ul>
+          </div> <!-- product-overlay -->
+          <div class="card-body">
+            <h3 class="card-title text-center">Dr. Barry Taller</h3>
+            <h5 class="text-center">  otolaryngologist</h5>
+            <p class="m text-center">Wednesday - Thursday</p>
+            <p class="n text-center">1 pm - 5:30 pm</p>
+            <a href="reserve.html" class=" doc btn btn-primary">Reserve</a>
+          </div>
+        </div>
+      </div>
+      <div class="col col-lg-3 col-md-6">
+        <div class="card pos">
+          <img src="images/docter34.jpg" class="card-img-top" alt="...">
+          <div class="product-overlay">
+            <ul class="list-unstyled">
+              <li><a href="#"><i class="fab fa-facebook" style="color: white !important;"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter" style="color: white !important;"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin" style="color: white !important;"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram" style="color: white !important;"></i></a></li>
+            </ul>
+          </div> <!-- product-overlay -->
+          <div class="card-body">
+            <h3 class="card-title text-center">Dr. Gary Moore</h3>
+            <h5 class="text-center"> surgeon</h5>
+            <p class="m text-center">Wednesday - Thursday</p>
+            <p class="n text-center">1 pm - 5:30 pm</p>
+            <a href="reserve.html" class=" doc btn btn-primary">Reserve</a>
+          </div>
+        </div>
+      </div>
+      <div class="col col-lg-3 col-md-6">
+        <div class="card pos">
+          <img src="images/docter4.avif" class="card-img-top" alt="..." >
+          <div class="product-overlay">
+            <ul class="list-unstyled">
+              <li><a href="#"><i class="fab fa-facebook" style="color: white !important;"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter" style="color: white !important;"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin" style="color: white !important;"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram" style="color: white !important;"></i></a></li>
+            </ul>
+          </div> <!-- product-overlay -->
+          <div class="card-body">
+            <h3 class="card-title text-center">Dr. Ian Smith</h3>
+            <h5 class="text-center"> Dentist</h5>
+            <p class="m text-center">Wednesday - Thursday</p>
+            <p class="n text-center">1 pm - 5:30 pm</p>
+            <a href="reserve.html" class=" doc btn btn-primary">Reserve</a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+    <!-- end our team -->
+    <!-- contact us -->
+    <div class="text-center mx-auto mb-5 " style="max-width: 500px; margin-top: 100px;" id="contact">
+      <h2 class="d-inline-block text-primary text-uppercase border-bottom border-5 ">Contact Us</h2>
+      <h5 class="d-inline-block">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</h5>
+    </div>
+      <div class="container mb-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col col-lg-3 col-md-6 mb-4">
+        <div class="card h-100 conc">
+          <div class="iconn d-flex align-items-center justify-content-center">
+            <i class="fas fa-map-signs"></i>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title text-center">Address</h5>
+            <p class="card-text text-center">198 West 21th Street, Suite 721 New York NY 10016</p>
+          </div>
+        </div>
+      </div>
+      <div class="col col-lg-3 col-md-6 mb-4">
+        <div class="card h-100 conc">
+          <div class="iconn d-flex align-items-center justify-content-center">
+            <i class="fas fa-phone"></i>
+                    </div>
+          <div class="card-body ">
+            <h5 class="card-title text-center"> Contact Number</h5>
+            <p class="card-text text-center">+1235986685</p>
+          </div>
+        </div>
+      </div>
+      <div class="col col-lg-3 col-md-6 mb-4">
+        <div class="card h-100 conc">
+          <div class="iconn d-flex align-items-center justify-content-center">
+            <i class="fas fa-paper-plane"></i>          </div>
+          <div class="card-body ">
+            <h5 class="card-title text-center">Email Address</h5>
+            <p class="card-text text-center"><a href="mailto:info@yoursite.com" style="text-decoration: none; color: black;">info@yoursite.com</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col col-lg-3 col-md-6 mb-4">
+        <div class="card h-100 conc">
+          <div class="iconn d-flex align-items-center justify-content-center" >
+            <i class="fas fa-globe-asia"></i>
+                    </div>
+          <div class="card-body ">
+            <h5 class="card-title text-center">WebSite</h5>
+            <p class="card-text text-center"><a href="#" style="text-decoration: none; color: black;">Yoursite.come</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+      </div>
+      <div class="container mb-5">
+        <div class="row">
+          <div class="col col-lg-6 col-md-12 col-small-12 col-12"  >
+            <div class="mapouter" ><div class="gmap_canvas overflow"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=california&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://2yu.co">2yu</a><br><style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style><a href="https://embedgooglemap.2yu.co">html embed google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
+          </div>
+          <div class="col col-lg-6 col-md-12 col-sm-12 col-12 " style="margin-top: 20px;">
+            <div class="mb-3">
+              <input type="text" class="form-control " id="exampleFormControlInput1" placeholder="name">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control " id="exampleFormControlInput1" placeholder="email@example.com">
+            </div>
+            <div class="mb-3">
+              <input type="text" class="form-control " id="exampleFormControlInput1" placeholder="subject">
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="resize: none;"> Message</textarea>
+            </div>
+            <div class="text-center">
+              <a href="index.html" class="  btn btn-primary mb-5 " onclick="window.alert('Successfully Sent');" >Send A message</a>
+    
+            </div>    
+          </div>
+        </div>
+      </div>
+    <!-- form contact -->
+    <!-- start footer -->
+    <footer>
+<div class="footer">
+  <div class="over"></div>
+      <div class="container text-center mb-5" >
+        <div class="over"></div>
+        <div class="row row-cols-4">
+          <div class=" desc col col-lg-3 col-md-6 col-12 col-sm-12">
+            <h3> Health Care</h3>
+            <div class="iconfooter">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+             <a href="#"> <i class="fab fa-twitter"></i></a>
+            <a href="#">  <i class="fab fa-linkedin" style="color: white !important;"></i></a>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reprehenderit dicta impedit quo cum provident.</p>
+
+          </div>
+          <div class=" depart col col-lg-3 col-md-6 col-12 col-sm-12">
+            <h3>Departments</h3>
+           <li> <a href="#">Neurology</a></li>
+            <li><a href="#">Surgical</a></li>
+          <li><a href="#">Dental</a></li>
+           <li> <a href="#">Cardiology</a></li>
+           <li> <a href="#">opthalmology</a></li>
+           <li> <a href="#">Nuclear Magentic</a></li>
+          </div>
+          <div class="links col col-lg-3 col-md-6 col-12 col-sm-12">
+            <h3>Links</h3>
+            <li><a href="#"> Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Departments</a></li>
+            <li><a href="#">Doctor</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+          </div>
+          <div class=" serv col col-lg-3 col-md-6 col-12 col-sm-12">
+           <h3>Services</h3>
+            <li><a href="#">Emergency Services</a></li>
+            <li><a href="#">Qualified Doctor</a></li>
+            <li><a href="#">OutDoors Checkup</a></li>
+            <li><a href="#">24 Hours Services</a></li>
+          </div>
+        </div>
+        <div class="totopicon">
+          <a href="#nav-bar">
+      
+              <img src="images/up-arrow.png" alt="">
+          </a>
+      </div>
+      </div>
+      <div class="text-center">
+        Copyright ©2023 All rights reserved | This template is made with<i class="fas fa-heart"></i> <span style="color: #207dff !important;">by Dina Ahmed Emam</span>
+      </div>
+    </div>
+    </footer>
+    <!-- End footer -->
+   
+
+   
+    
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      body{
+        background-color: #f5f5f5;
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary " id="nav-bar">
+        <div class="container-fluid headd">
+            <img src="images/png-clipart-hospital-logo-clinic-health-care-physician-business.png" alt="" height="60" width="60" style="margin-right: 20px;">
+          <a class=" nav-bor navbar-brand" href="#">HealthCare</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="index.html#services">Services</a></li>
+                  <li><a class="dropdown-item" href="index.html#price">Prices</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="index.html#staff">Staff</a></li>
+                </ul>
+              </li>
+              <li class="nav-item item">
+                <a class="nav-link link" href="departments.html">Departments</a>
+              </li>
+              <li class="nav-item item">
+                <a class="nav-link link" href="index.html#contact">Contact Us</a>
+              </li>
+            </ul>
+            
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 inpuu"  type="search" placeholder="Search" aria-label="Search"  >
+              <button class="btn btn-primary"  type="submit"  >Search</button>
+            </form>
+            <form class="d-flex" role="log">
+              <button class="btn btn-primary"  style="margin-left: 2px;" type="submit" >
+              <a href="login.html" style="color: white  !important; text-decoration: none; " >login</a></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+  <!-- end nav -->
+   <!-- Start Section -->
+   <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators" >
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/istockphoto-171263947-612x612.jpg" class="d-block w-100" alt="..." height="550px">
+      </div>
+      <div class="carousel-item">
+        <img src="images/istockphoto-1352489963-170667a.jpg" class="d-block w-100" alt="..." height="550px">
+      </div>
+      <div class="carousel-item">
+        <img src="images/istockphoto-1222563180-612x6122222.jpg" class="d-block w-100" alt="..." height="550px">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- collapse Accordion-->
+ <h1 class="colla text-center text-light p-3 m-0 ">Our Departments </h1>
+ <div class="accordion" id="accordionExample">
+   <div class="accordion-item">
+     <h2 class="accordion-header" id="headingOne">
+       <button class="accordion-button collapsed btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         Accident and emergency (A&E)
+       </button>
+     </h2>
+     <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+       <div class="accordion-body">
+         Also called Casualty Department, where you're likely to be taken if you have arrived in an ambulance or emergency situation.      </div>
+     </div>
+   </div>
+   <div class="accordion-item">
+     <h2 class="accordion-header" id="headingTwo">
+       <button class="accordion-button collapsed btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         Burn Center (Burn Unit or Burns Unit)
+       </button>
+     </h2>
+     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+       <div class="accordion-body">
+         A hospital specializing in the treatment of burns. Burn centers are often used for the treatment and recovery of patients with more severe burns.
+     </div>
+   </div>
+   <div class="accordion-item">
+     <h2 class="accordion-header" id="headingThree">
+       <button class="accordion-button collapsed btn-outline-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         Coronary Care Unit (CCU)
+             </button>
+     </h2>
+     <div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+       <div class="accordion-body">
+         (Cardiac intensive care unit (CICU) - A hospital ward specialized in the care of patients with heart attacks, unstable angina, cardiac dysrhythmia and other cardiac conditions that require continuous monitoring and treatment.    </div>
+   </div>
+ </div>
+   </div>
+ </div>
+ <!-- /collapse -->
+<div class="container " style="width: 100% !important; background-color: #f5f5f5; margin-top: 20px;" >
+    <h3 class="text-center mb-3"> Accident and emergency (A&E)</h3>
+
+ <div class="card mb-3" style="max-width: 1000px; margin: auto;">
+    <div class="row ">
+      <div class="col-md-6 col-lg-6">
+        <img src="images/istockphoto-171263947-612x612.jpg" class="img-fluid rounded-start" alt="..." style="height: 100% !important; width: 100% !important;" >
+      </div>
+      <div class="col-md-6 col-lg-6">
+        <div class="card-body ">
+          <h5 class="card-title " style="font-weight: bold;">Description</h5>
+          <p class="card-text">The National Hospital Ambulatory Medical Care Survey (NHAMCS) defines an emergency department as a hospital facility that is staffed 24 hours a day, 7 days a week, and provides unscheduled outpatient services to patients whose condition requires immediate care.</p>
+          <p class="card-text mb-2"><small class="text-muted ">To learn More Click <a href="#">Here</a></small></p>
+        </div>
+        <div class="text-center mb-3"> <button type="button" class="btn btn-secondary"
+          data-bs-toggle="tooltip" data-bs-placement="top"
+          data-bs-custom-class="custom-tooltip"
+          data-bs-title="Show More" style="background-color: #13C2D9 !important; border: none !important;">
+          Learn
+  </button>
+</div>
+      </div>
+    </div>
+    
+  </div>
+  <h2 class="text-center mb-3"> Burn Center (Burn Unit or Burns Unit)</h2>
+  <div class="card mb-3" style="max-width: 1000px; margin: auto;">
+    <div class="row g-0">
+      <div class="col-md-6 col-lg-6">
+        <img src="images/istockphoto-1222563180-612x6122222.jpg" class="img-fluid rounded-start" alt="..." style="height: 100% !important;" width="100%">
+      </div>
+      <div class="col-md-6 col-lg-6">
+        <div class="card-body">
+          <h5 class="card-title mb-2" style="font-weight: bold;">Description</h5>
+          <p class="card-text">A burn center needs a team approach for the management of critically burnt patients. Usually, the burns management team consists of a plastic surgeon, intensivist, chest physician, general surgeon, Anesthesiologist, Respiratory Therapist, pediatrician, nurses and technicians</p>
+          <p class="card-text mb-2"><small class="text-muted">To learn More Click <a href="#">Here</a></small></p>
+        </div>
+        <div class="text-center mb-3"> <button type="button" class="btn btn-secondary"
+          data-bs-toggle="tooltip" data-bs-placement="top"
+          data-bs-custom-class="custom-tooltip"
+          data-bs-title="Show More" style="background-color: #13C2D9 !important; border: none !important;">
+          Learn
+  </button>
+</div>
+      </div>
+    </div>
+  </div>
+  <h2 class="text-center mb-3">  Coronary Care Unit (CCU)</h2>
+  <div class="card mb-3" style="max-width: 1000px; margin: auto;">
+    <div class="row g-0">
+      <div class="col-md-6 col-lg-6">
+        <img src="images/istockphoto-1352489963-170667a.jpg" class="img-fluid rounded-start" alt="..." style="height: 100% !important;" width="100%">
+      </div>
+      <div class="col-md-6 col-lg-6">
+        <div class="card-body">
+          <h5 class="card-title mb-2" style="font-weight: bold;">Description</h5>
+          <p class="card-text">The Coronary Care Unit provides care for the more acutely ill cardiac patients. We have cardiac monitoring facilities, and care for patients with a range of conditions including heart attacks.The main feature of coronary care is the availability of telemetry or the continuous monitoring of the cardiac rhythm by electrocardiography</p>
+          <p class="card-text mb-2"><small class="text-muted">To learn More Click <a href="#">Here</a></small></p>
+        </div>
+        <div class="text-center mb-3"> <button type="button" class="btn btn-secondary"
+          data-bs-toggle="tooltip" data-bs-placement="top"
+          data-bs-custom-class="custom-tooltip"
+          data-bs-title="Show More" style="background-color: #13C2D9 !important;  border: none !important;">
+          Learn
+  </button>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="over"></div>
+      <div class="container text-center mb-5" >
+        <div class="over"></div>
+        <div class="row row-cols-4">
+          <div class=" desc col col-lg-3 col-md-6 col-12 col-sm-12">
+            <h3> Health Care</h3>
+            <div class="iconfooter">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+             <a href="#"> <i class="fab fa-twitter"></i></a>
+            <a href="#">  <i class="fab fa-linkedin" style="color: white !important;"></i></a>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reprehenderit dicta impedit quo cum provident.</p>
+
+          </div>
+          <div class=" depart col col-lg-3 col-md-6 col-12 col-sm-12">
+            <h3>Departments</h3>
+           <li> <a href="#">Neurology</a></li>
+            <li><a href="#">Surgical</a></li>
+          <li><a href="#">Dental</a></li>
+           <li> <a href="#">Cardiology</a></li>
+           <li> <a href="#">opthalmology</a></li>
+           <li> <a href="#">Nuclear Magentic</a></li>
+          </div>
+          <div class="links col col-lg-3 col-md-6 col-12 col-sm-12">
+            <h3>Links</h3>
+            <li><a href="#"> Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Departments</a></li>
+            <li><a href="#">Doctor</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+          </div>
+          <div class=" serv col col-lg-3 col-md-6 col-12 col-sm-12">
+           <h3>Services</h3>
+            <li><a href="#">Emergency Services</a></li>
+            <li><a href="#">Qualified Doctor</a></li>
+            <li><a href="#">OutDoors Checkup</a></li>
+            <li><a href="#">24 Hours Services</a></li>
+          </div>
+        </div>
+        <div class="totopicon">
+          <a href="#nav-bar">
+      
+              <img src="images/up-arrow.png" alt="">
+          </a>
+      </div>
+      </div>
+      <div class="text-center">
+        Copyright ©2023 All rights reserved | This template is made with<i class="fas fa-heart"></i> <span style="color: #207dff !important;">by Dina Ahmed Emam</span>
+      </div>
+    </div>
+    </footer>
+    <!-- End footer -->
+   
+
+
+<script>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
+  </script>
+</body>
+</html>

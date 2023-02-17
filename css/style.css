@@ -1,0 +1,335 @@
+html{ 
+}
+
+body{
+  position: relative;
+}
+.icon{
+  color: #13C2D9;
+}
+.headd{
+  background: #f5f5f5;
+  top: 0;
+  position: fixed;
+  padding: 0;
+  z-index: 5;
+}
+.nav-bor{
+  border-right: 2px solid black;
+  padding-right: 10px;
+font-weight: bold;
+transition: 0.5s;
+}
+.nav-bor:hover{
+  text-shadow: 5px 5px 5px #207dff ,-10px -10px 10px #207dff ;
+}
+
+/* start services */
+.service-item .service-icon {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #13C2D9;
+    border-radius: 50%;
+    transform: rotate(-14deg);
+  }
+  .service-item {
+    position: relative;
+    height: 350px;
+    padding: 0 30px;
+    transition: .5s;
+  }
+  .service-item a.btn {
+    position: absolute;
+    width: 60px;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -30px;
+    opacity: 0;
+  }
+
+  .service-item:hover a.btn{
+    opacity: 1;
+    transform-origin: bottom;
+  }
+  a.btn{
+    transition: 1s;
+
+  }
+  button.btn{
+    transition: 1s;
+  }
+ 
+
+  .btn-primary {
+    color: black;
+  }
+
+/* start department */
+.colla{
+  background-color: black;
+}
+
+.first-card{
+  background-image: url(../images/istockphoto-171263947-612x612.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 350px;
+}
+.second-card{
+  background-image: url(../images/istockphoto-1222563180-612x6122222.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 350px;
+}
+.third-card{
+  background-image: url(../images/istockphoto-1352489963-170667a.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 612px;
+  height: 350px;
+
+
+}
+/* start pricing */
+.price{
+  box-shadow: 2px 3px 4px black;
+}
+.price .pricing_header {
+  background-color: #13C2D9;
+}
+.pricing_header{
+  position: relative;
+  height: 60px;
+}
+.benefits{
+  margin-top: 40px;
+}
+.benefits ul{
+  list-style: none;
+}
+.pri h2{
+  margin-top: 10px;
+
+}
+
+.pricing_header .brain ,.adb,.sur ,.imm{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+}
+
+.res{
+  margin-bottom:10px;
+
+}
+
+.btn-primary{
+  background-color: #13C2D9 !important;
+  border: none !important;
+}
+.btn-primary:hover {
+  transform: scale(1.1);
+  color: black !important;
+}
+.pricing_body{
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+/* start team */
+.card-img-top{
+  width: 250px;
+  height: 250px;
+}
+
+.m{
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #4584b7;
+  text-shadow: 3px 3px 5px rgba(63, 59, 59, 0.603);
+
+}
+.n{
+font-family: "Raleway", sans-serif;
+font-weight: 600;
+font-size: 15px;
+color: #873e51;
+text-shadow: 3px 3px 5px rgba(63, 59, 59, 0.603);
+}
+.doc{
+  background-color: #873e51 !important;
+  width: fit-content;
+  margin-left: 40%;
+  transition: 0.5s !important;
+}
+.doc:hover{
+  transform: scale(1.1);
+  color: white !important;
+}
+.pos{
+  position: relative;
+}
+.product-overlay {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 250px;
+  transform: scaleX(0);
+  opacity: 0.7;
+  transition: all 1s;
+  background-color:rgba(0,0,0,40%);
+  width: 100%;
+   /* border: 1px solid red; */
+}
+
+.pos:hover .product-overlay,
+.pos:hover .product-overlay i {
+  transform: scaleX(1);
+  color: white;
+}
+.product-overlay .list-unstyled {
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translate(-50%, -50%);
+  list-style: none;
+}
+.product-overlay .list-unstyled li {
+  font-size: 30px;
+}
+.product-overlay .list-unstyled li:hover i {
+  transform: scale(1.2);
+}
+.conc{
+  background-color: rgba(205, 205, 200, 0.135) !important;
+}
+.iconn{
+  width: 100px;
+  height: 100px;
+  background: white;
+  margin: 20px auto;
+  border-radius: 50%;
+}
+.iconn i{
+  color:#13C2D9;
+  font-size: 30px;
+}
+.contacc{
+  width: 100% !important;
+  height: 100% !important;
+}
+.contt:hover{
+  color: white !important;
+
+}
+
+/* start footer */
+
+.footer{
+  background-color: bisque;
+  padding: 30px;
+  background-image: url(../images/footer.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+li{
+  list-style: none;
+}
+ li a{
+  text-decoration: none;
+}
+.serv li ,.links li ,.depart li{
+  margin-bottom: 10px;
+  font-size: 20px;
+  
+}
+.serv li a,.links li a ,.depart li a{
+  color:black;
+  
+}
+.serv h3,.links h3 ,.depart h3 ,.desc h3{
+color: #207dff;
+}
+.serv ,.links ,.depart ,.desc{
+  position: relative;
+}
+.iconfooter{
+  font-size: 30px;
+  margin: 15px 0;
+  position: relative;
+}
+
+.footer{
+  position: relative;
+}
+.over{
+ 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(0 0 0 / 5%);
+  
+}
+
+
+/* login */
+.loginn{
+  margin-top: 200px;
+  width: 80% !important;
+  /* border: 1px solid red; */
+}
+
+.formlog ,.formsign ,.Reservlog{
+  border: 2px solid black;
+border-radius: 5%;  
+background-color: white !important;
+
+
+}
+.form-check-label{
+  display: inline-block;
+}
+.lognnn{
+  background-color: black !important;
+}
+.lognnn:hover{
+  color: white !important;
+}
+.signup{
+  text-align: center !important;
+  display: block;
+  color: black;
+}
+.totopicon {
+  position: absolute;
+  right: 2px;
+  bottom: 0;
+  
+}
+
+
+.totopicon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.reser:hover{
+color: white !important;
+}
+.flee{
+   display: flex;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 30px);
+      margin-top: 20px;
+}
